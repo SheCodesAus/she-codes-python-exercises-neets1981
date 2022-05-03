@@ -70,43 +70,43 @@ mitch_is_home = True
 
     # `Q3
 # light_colour = "Red"
-# car_detected = True
+# car_detected = False
 
-# if (light_colour=="Red") and (not car_detected):
+# if light_colour and not car_detected:
 #         print ("Do nothing ")
-# # elif light_colour=="Red" and car_detected:
-# #     print("Flash!")
-# # elif light_colour and not car_detected:
-# #     print ("Do nothing ")
+# elif light_colour and car_detected:
+#     print("Flash!")
+# elif light_colour and not car_detected:
+#     print ("Do nothing ")
 # else:
 #     print ("something is wrong")
 
 # Q4
-Enterheight= int(input("Enter your height in cm. "))
+# Enterheight= input("Enter your height in cm. ")
 # height=int(Enterheight)
-if Enterheight>=120:
- print("Hop on! ")
-else:
-    print ("Sorry not today! ")
+# if height>=120:
+#  print("Hop on! ")
+# else:
+#     print ("Sorry not today! ")
 
     # Q5
-# username='fleur'
-# password='password123'
+username='fleur'
+password='password123'
 
-# Entername=input("Enter your username ")
-# Enterpsw= input ("Enter password ")
-# dsf
-# if Entername==username and Enterpsw==password:
-#     print ("Correct!")
-# else:
-#     print("Incorrect!")    
+Entername=input("Enter your username ")
+Enterpsw= input ("Enter password ")
 
-# # Q6
-# userinput=input("Enter email address: ")
-# if "@" in userinput and "." in userinput:
-#     print("valid email address")
-# else:
-#     print("invalid email address")
+if Entername==username and Enterpsw==password:
+    print ("Correct!")
+else:
+    print("Incorrect!")    
+
+# Q6
+userinput=input("Enter email address: ")
+if "@" in userinput and "." in userinput:
+    print("valid email address")
+else:
+    print("invalid email address")
 
 
 
