@@ -22,17 +22,34 @@
 #     print (item) # it will reture 1,2,3,4,
 #     print(chilli_wishlist[item]) #this will
 
-chilli_wishlist = [["igloo"],
-    ["donut toy", "tennis ball", "crocodile toy"],
-    ["chicken", "peanut butter"],
-    ["cardboard box", "kong", "dig mat"]]
-for category in chilli_wishlist:
+
+
+
+# chilli_wishlist = [["igloo"],
+#     ["donut toy", "tennis ball", "crocodile toy"],
+#     ["chicken", "peanut butter"],
+#     ["cardboard box", "kong", "dig mat"]]
+# for category in chilli_wishlist:
+    
     # ["igloo]
     # ["donut toy", "tennis ball", "crocodile toy"]
-    print("hello")
-
     # for item in category:
-    #     print (item)
+    #     print(item)
+
+# while loop (ask to enter name till u get answer jenny)
+name="Asli"
+while name!="jenny":
+        print(f" {name}")
+        name= input("Enter name: ")
+
+
+
+
+
+
+
+
+
 
 # #while loop
 # # while 5>3:
