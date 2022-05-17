@@ -137,41 +137,62 @@ while num!=i:
     num=int(input("enter a number: "))  
 print("correct!")'''
 
-'''userinput=int(input("Enter no. here: "))
-i=userinput
-b=1
-while i>=1:
-    j=1
-    while j<=i:
-        print("*", end='')
-        j=j+1
-    print ()
-    i=i-1'''
+# userinput=int(input("Enter no. here: "))
+# i=userinput
+# b=1
+# while i>=1:
+#     j=1
+#     while j<=i:
+#         print("*", end='')
+#         j=j+1
+#     print ()
+#     i=i-1
 
-'''userinput=int(input("Enter your no : "))
+# userinput=int(input("Enter your no : "))
+# i=1
+# while i<=userinput:
+#     j=1
+#     while j<=i:
+#         print ("*", end='')
+#         j=j+1
+#     print ()
+#     i=i+1
+
+# userinput=int(input("Enter no. here: "))
+# i=6
+
+# while i>=1:
+#     b=1
+#     while b>i:
+#         print(" ", end=" ")
+#         b=b-1
+#     j=1
+#     while j<=i:
+#             print("*", end='')
+#             j=j+1
+#     print ()
+#     i=i-1
+userinput=int(input("Enter no. here: "))
 i=1
 while i<=userinput:
-    j=1
-    while j<=i:
-        print ("*", end='')
-        j=j+1
-    print ()
-    i=i+1'''
+    b=1
+    j=userinput
+    while b<i:
+            b=b+1
+            print(" " * b + "*" * j)
+            j=j-1
+    i=i+1      
+    
+# find min number from list and index of it
+'''numbers=[4,7,10,2,1]
+min_value=numbers[0]
+min_location=0
+index=0
 
-userinput=int(input("Enter no. here: "))
-i=6
-
-while i>=1:
-    b=6
-    while b>i:
-        print(" ", end=" ")
-        b=b-1
-    j=16
-    while j<=i:
-            print("*", end='')
-            j=j+1
-    print ()
-    i=i-1
-
-
+for num in numbers:
+    if num<min_value: # when num is less than min value if yes g ot loop
+        min_value=num #save num value minvalue means replace older one
+        min_location=index #saving index in min location varible
+    index+=1
+print(min_value, min_location)'''
 

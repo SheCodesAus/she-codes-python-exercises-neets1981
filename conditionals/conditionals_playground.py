@@ -69,17 +69,7 @@ mitch_is_home = True
 #     print("Climb on mitch")
 
     # `Q3
-# light_colour = "Red"
-# car_detected = True
-
-# if (light_colour=="Red") and (not car_detected):
-#         print ("Do nothing ")
-# # elif light_colour=="Red" and car_detected:
-# #     print("Flash!")
-# # elif light_colour and not car_detected:
-# #     print ("Do nothing ")
-# else:
-#     print ("something is wrong")
+# 
 
 # Q4
 Enterheight= int(input("Enter your height in cm. "))
